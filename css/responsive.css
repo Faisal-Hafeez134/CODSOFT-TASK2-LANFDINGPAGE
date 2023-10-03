@@ -1,0 +1,312 @@
+@media(max-width:1400px){
+
+/***top creatoe circle back**/
+/*
+.creator-wrapper .title img{
+
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    left: 388px;
+
+
+  }*/
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1300px){
+
+
+
+}
+
+
+
+
+@media(max-width:1230px){
+
+
+
+    .navbar{
+        
+       
+       
+        border: 1px solid white;
+        
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    
+      
+  
+    
+    
+    }
+
+
+}
+
+@media(max-width:1199px){
+
+  /*  .creator-wrapper .title img{
+
+        position: absolute;
+        z-index: -1;
+        top: -35px;
+        left: 297px;
+    
+    
+      }*/
+
+}
+
+
+
+@media(max-width:1070px){
+
+
+
+}
+
+
+
+@media(max-width:991px){
+
+    .navbar .navbar-nav .nav-item a{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 30px;
+        
+
+    }
+
+    .navbar .navbar-nav .nav-but{
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .navbar-nav .nav-but .right{
+
+
+        margin-right: 0;
+        margin-bottom: 30px;
+          
+          }
+
+
+/***hero-section**/
+
+
+
+
+.banner_wrapper .hero-information h1{
+  
+   
+    font-size: 43px;
+    margin-bottom: 30px !important;
+  }
+  
+
+  .banner_wrapper .hero-information p{
+  
+  
+    margin-bottom: 30px !important;
+    font-weight: 100 !important;
+    }
+    
+    
+  
+    
+    .banner_wrapper .text-logo-align h2{
+  
+        font-size: 12px;
+       
+        
+        }
+        
+        .banner_wrapper .text-logo-align p{
+        
+            font-family: var(--secondary-font);
+            font-weight: var(--poppin-regular);
+            font-size: 10px;
+            color: white;
+        
+        }
+
+        .nft_wrapper .rectangle {
+
+            margin-right: 40px !important;
+            
+              }
+        
+
+/***crwate sell nft**/
+/*circle*/
+.create_wrapper .title img{
+
+
+  position: absolute;
+  z-index: -1;
+  top: -35px;
+ /* left: 479px;*/
+ transform: translateX(-280px);
+
+}
+
+.logo-align a img{
+margin-bottom: 20px;
+}
+    }
+
+
+
+
+
+
+@media(max-width:767px){
+
+    .banner_wrapper .hero-image{
+        display: none;
+    }
+
+   .banner_wrapper .hero-information {
+
+margin-bottom: 190px;
+
+
+
+}
+
+
+
+
+/***nftsection**/
+.nft_wrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+      }
+
+.nft_wrapper .rectangle img{
+
+margin-bottom: 70px;
+margin-left: 20px;
+}
+
+.nft_wrapper .nft_information h1 {
+
+   text-align: center;
+  }
+  
+  .nft_wrapper .nft_information p{
+  
+      text-align: center;
+  
+  }
+
+  .nft_wrapper .nft_information a {
+    display: flex;
+    justify-content: center;
+align-items: center;
+text-align: center;
+
+
+  }
+
+  .nft_wrapper .nft_information .circle {
+
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+   /* left: 479px;*/
+   transform: translateX(-280px);
+    
+}
+
+/**create and sell nfts***/
+
+.create_wrapper .title img{
+
+
+ display: none;
+
+}
+
+
+.create_wrapper  .title{
+
+  text-align: center;
+}
+
+.create_wrapper .subtitle{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+text-align: center;
+margin-bottom: 50px;
+
+}
+
+
+
+
+
+
+.footer_wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: c;
+text-align: center;
+
+}
+
+
+}
+
+
+
+@media(max-width:453px){
+
+  .nft_wrapper .nft_information .circle {
+
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+   /* left: 479px;*/
+   transform: translateX(-170px);
+    
+  }
+  
+
+}
+
+
+
+
+

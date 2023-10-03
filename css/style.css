@@ -1,0 +1,616 @@
+/*inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*poppins*/
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*jura*/
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Jura:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  /*  width: 1440;*/
+background-color: rgb(23, 15, 44);
+
+}
+
+
+.learn-more-btn{
+
+    background: linear-gradient(rgb(24, 15, 45),rgb(24, 15, 45)) padding-box,
+    linear-gradient(40deg,#AB2FFE, #40AFFD) border-box;
+    color: #313149;
+  /*  padding: 20px 32px;*/
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 500;
+    
+    }
+    
+    .learn-more-btn span{
+       padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-weight: 500;
+       
+    }
+    
+
+    
+:root{
+
+
+    --first-font:'Inter';
+    --secondary-font: 'Poppins';
+    --third-font:'jura';
+
+    --inter-regular:400;
+    --inter-medium:500;
+    --inter-semibold:600;
+    --inter-bold:700;
+
+    --poppin-regular:400;
+    --poppin-medium:500;
+    --poppin-semibold:600;
+    --poppin-bold:700;
+
+    --jura-medium:500;
+
+
+  
+
+}
+
+
+/*********************************navbar*****************************************************/
+
+
+
+
+.navbar{
+background: url(../images/bg.png);
+    border: 1px solid white;
+    
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+  
+ 
+
+
+}
+/*navbar image**/
+
+.navbar-brand img{
+
+
+    max-width: 210px;
+    height: auto;
+    margin-left: 60px;
+
+}
+
+/**menu**/
+
+.navbar i{
+    color: #fff;
+    font-size: 40px;
+    
+}
+
+/**menu-border**/
+.navbar button{
+    border: none !important;
+    margin-right: 60px;
+
+}
+
+.navbar button:hover{
+  color: #313149;
+}
+
+/* nav-link**/
+.navbar .navbar-nav .nav-item a{
+/*to control padding of navbar*/
+padding: 0 52px;
+padding-top: 0;
+padding-bottom: 0;
+font-family: var(--first-font);
+font-size: var(--inter-regular);
+font-size: 18px;
+color: #fff;
+
+
+}
+
+.navbar .navbar-nav .nav-item nav-link.active{
+
+color: #AB2FFE;
+
+}
+
+/*nav button**/
+
+.navbar .navbar-nav .nav-but {
+
+
+padding: 10px;
+
+}
+
+.navbar .navbar-nav .nav-but .right{
+
+
+  margin-right: 60px;
+    
+    }
+
+.navbar .navbar-nav .nav-but a{
+
+    font-family: var(--first-font);
+    font-size: var(--inter-regular);
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+/**********************************
+
+her-section
+
+***********************************/
+
+
+/*** bannenr****/
+
+
+
+.banner_wrapper{
+
+    display: flex;
+    width: 100%;
+    
+    padding: 300px 0 125px;
+    
+    height: 100vh;
+    background: url(../images/bg-bckground-update.png) no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+  
+  }
+  
+  .banner_wrapper .hero-information h1{
+  
+  font-family: var(--third-font);
+  font-size: 72px;
+  font-weight: var(--jura-medium);
+  background: linear-gradient(180deg, #E6B9FF 0%, #9E89FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 64px;
+  
+  
+  }
+  
+  .banner_wrapper .hero-information p{
+  
+  font-family: var(--first-font);
+  font-weight: var(--inter-regular);
+  font-size: 10px;
+  margin-bottom: 37px;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 60px;
+  }
+  
+  .banner_wrapper .text-logo-align{
+  
+  display: flex;
+  flex-direction: row;
+  
+  
+  }
+  
+  .banner_wrapper .text-logo-align h2{
+  
+  font-family: var(--secondary-font);
+  font-weight: var(--poppin-bold);
+  font-size: 20px;
+  color: white;
+  
+  }
+  
+  .banner_wrapper .text-logo-align p{
+  
+      font-family: var(--secondary-font);
+      font-weight: var(--poppin-regular);
+      font-size: 14px;
+      color: white;
+  
+  }
+  
+  
+
+  
+  .banner_wrapper{
+
+    margin-bottom: 100px;
+  }
+
+
+
+  /****************************************
+  ************************************
+  top creator****************************
+  **************************************
+  ************************************/
+
+ /* .creator-wrapper .title img{
+
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    left: 300px;
+    
+
+
+  }
+*/
+/*
+.creator-wrapper{
+  /*  margin-top: 100px;
+}
+*/
+.creator-wrapper .title img{
+
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+   /* left: 479px;*/
+   transform: translateX(-180px);
+
+}
+
+
+
+
+  .creator-wrapper .title h1{
+
+font-family:var(--first-font);
+font-size: 40px ;
+font-weight: var(--inter-regular);
+
+color: white;
+margin-bottom: 80px;
+
+  }
+
+  .creator-wrapper .view-btn{
+
+margin-top: 52px;
+
+  }
+
+
+
+
+
+
+
+  /***********************************nft rectangle*************************/
+
+
+
+
+  .nft_wrapper{
+
+margin-top: 100px;
+
+
+
+  }
+
+ .nft_wrapper .rectangle {
+
+margin-right: 80px;
+
+  }
+
+  /*.nft_wrapper .g-circle img{
+  transform: translateY(1000px);
+  }*/
+
+
+ .nft_wrapper .nft_align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.nft_wrapper .rectangle{
+/*
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+   /* left: 479px;
+   transform: translateX(-70px);
+*/
+
+}
+
+.nft_wrapper .rectangle img{
+
+
+}
+  
+
+.nft_wrapper .nft_information .circle {
+
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+   /* left: 479px;*/
+   transform: translateX(-70px);
+    
+}
+
+.nft_wrapper .nft_information h1 {
+
+  margin-bottom: 56px;
+  font-family: var(--first-font) ;
+  font-weight: var(--inter-regular) ;
+  font-size: 40px;
+    color: white;
+    margin-bottom: 56px;
+}
+
+.nft_wrapper .nft_information p{
+
+    font-family: var(--first-font) ;
+    font-weight: var(--poppin-regular) !important;
+    font-size: 14px;
+    margin-bottom: 55px;
+    color: white;
+
+}
+  
+
+/**********************choose-section*****************/
+
+.choose_wrapper img{
+margin-top: 100px;
+transform: translateX(-15px);
+
+}
+
+
+/*********************************************************
+*******************************************************
+craete AND SELL nfts**********************************/
+
+.create_wrapper{
+margin-top: 100px;
+}
+
+.create_wrapper .subtitle  img{
+
+    width: 64px;
+    height: 64px;
+   margin-bottom: 20px;
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+
+}
+
+.create_wrapper .title{
+text-align: center;
+font-size: 40px;
+font-family: var(--first-font) ;
+font-weight:var(--inter-regular) ;
+color: white;
+
+margin-bottom: 97px;
+
+
+}
+
+.create_wrapper .title img{
+
+
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+   /* left: 479px;*/
+   transform: translateX(-305px);
+
+}
+  
+.create_wrapper .subtitle h1{
+
+    color: #FFFAF9;
+   
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--poppin-medium);
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.create_wrapper .subtitle p{
+
+    color: #FFFAF9;
+   
+    font-family: var(--first-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: var(--inter-regular);
+    line-height: normal;
+
+}
+
+.back_line {
+
+background-image: url(../images/creator-line.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+color: red;
+margin-top: 100px;
+color: rgb(23, 15, 44);
+}
+
+
+/****contactus************************************/
+
+.contact_wrapper{
+margin-top: 100px;
+}
+
+.email-field {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    border: none;
+    width: 300px; /* Adjust the width as needed */
+    padding: 10px;
+    color: white;
+    text-align: center; /* Center the text within the input */
+  }
+
+  .email-field::placeholder {
+    color: white; /* Placeholder text color */
+    opacity: 0.7; /* Placeholder text opacity */
+    text-align: center; /* Center the placeholder text */
+  }
+
+  .contact_wrapper h1{
+
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--first-font) ;
+    font-weight:var(--inter-regular) ;
+    color: white;
+    margin-bottom: 40px;
+
+  }
+
+  .contact_wrapper img{
+
+margin-top: 40px;
+margin-bottom: 100px;
+cursor: pointer;
+
+  }
+
+
+
+
+
+  /**************************************************************************************************fotter************************/
+
+.footer_wrapper{
+
+background: url(../images/footer-background.png);
+
+background-repeat: no-repeat;
+background-size: cover;
+width: auto;
+
+}
+
+.footer_wrapper .subtitle{
+    font-size: 22px;
+    font-family: var(--first-font);
+    font-weight: var(--inter-medium);
+    margin-bottom: 39px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.footer_wrapper .logo-align a{
+    padding-right: 20px;
+}
+
+.footer_wrapper h1{
+margin-top: 65px;
+font-size: 30px;
+font-family: var(--first-font);
+font-weight: var(--inter-medium);
+margin-bottom: 67px;
+color: white;
+
+
+}
+
+.footer_wrapper p{
+
+    font-size: 22px;
+    font-family: var(--first-font);
+    font-weight: var(--inter-regular);
+    margin-bottom: 39px;
+    color: white;
+    
+    
+    }
+
+/*
+  .footer_wrapper ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: self-start;
+    list-style: none;
+  }
+
+.footer_wrapper ul li{
+
+
+color: white;
+
+}
+*/
+
+.footer_wrapper .logos .first-logo {
+
+margin-top: 65px;
+}
+
+.footer_align{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.footer_wrapper .copyright-footer p{
+
+font-size: 20px;
+font-family: var(--first-font);
+font-weight: var(--inter-medium);
+color: #545C71;
+margin-top: 20px;
+margin-bottom: 10px;
+}
